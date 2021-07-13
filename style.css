@@ -18,9 +18,10 @@ body {
 
 .main {
     margin-top:5%;
-    /* border : 1px solid red; */
+    /* border : 1px solid red; */   /*debugging perpose*/
     display: grid;
     width:83%;
+    max-width:25rem;
     font-family: 'Karla', sans-serif;
     box-shadow: 1px 20px 25px #CADBEB;
 }
@@ -138,9 +139,10 @@ p {
     }
     .main {
         margin:0;
-        width:40%;
+        /* width:40%; */
         grid-template-columns: 50% 50%;
         grid-template-rows : 50% 50%;
+        max-width:40rem;
     
         
      }
